@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Inria+Serif:300,300italic,regular,italic,700,700italic);
+
+li {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    background-image: url('./Rectangle6.png');
+    color: #fff;
+    flex-wrap: wrap;
+
+
+    .nav {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+        height: 72px;
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        margin-top: 25px;
+        padding: 0 10px 0;
+        font-family: 'Inter';
+        background-size: contain;
+
+
+        .navbar {
+            display: flex;
+            gap: 23px;
+        }
+    }
+
+    .welcome {
+        font-family: 'Inria Serif';
+        position: relative;
+        width: 65%;
+        top: 25%;
+        left: -10%;
+        height: 200px;
+    }
+
+    .welcome_text {
+        font-weight: 400;
+        font-size: 48px;
+    }
+}
+
+.navlink {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Inria+Serif:300,300italic,regular,italic,700,700italic);
+
+.performances_section {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inria Serif';
+
+    .performance_info {
+        display: flex;
+        flex-direction: column;
+        padding-left: 60px;
+
+        p {
+            font-size: 48px;
+        }
+
+        button {
+            background: none;
+            border: none;
+            color: inherit;
+            font: inherit;
+            line-height: normal;
+            overflow: visible;
+            padding: 0;
+            text-align: inherit;
+            text-transform: none;
+            appearance: none;
+            cursor: pointer;
+            font-size: 34px;
+            text-decoration: underline;
+            justify-self: flex-end;
+        }
+    }
+}
